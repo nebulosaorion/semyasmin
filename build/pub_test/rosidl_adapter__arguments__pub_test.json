@@ -1,0 +1,6 @@
+{
+  "package_name": "pub_test",
+  "non_idl_tuples": [
+    "/home/mii/ros2_ws/src/pub_test:msg/DisplayMessage.msg"
+  ]
+}

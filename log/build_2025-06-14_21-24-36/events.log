@@ -1,0 +1,284 @@
+[0.000000] (-) TimerEvent: {}
+[0.000349] (pub_test) JobQueued: {'identifier': 'pub_test', 'dependencies': OrderedDict()}
+[0.000387] (pub_test) JobStarted: {'identifier': 'pub_test'}
+[0.004881] (pub_test) JobProgress: {'identifier': 'pub_test', 'progress': 'cmake'}
+[0.005533] (pub_test) Command: {'cmd': ['/usr/bin/cmake', '/home/mii/ros2_ws/src/pub_test', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/mii/ros2_ws/install/pub_test'], 'cwd': '/home/mii/ros2_ws/build/pub_test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:en'), ('USER', 'mii'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mii'), ('OLDPWD', '/home/mii/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PS1', '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1838'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mii'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mii'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mii-Nitro-ANV15-51:@/tmp/.ICE-unix/1813,unix/mii-Nitro-ANV15-51:/tmp/.ICE-unix/1813'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b2a90f69_2358_4854_89b9_73103e2c06ab'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.18AX72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mii/ros2_ws/build/pub_test'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/mii/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.064917] (pub_test) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099770] (-) TimerEvent: {}
+[0.129033] (pub_test) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.134964] (pub_test) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199997] (-) TimerEvent: {}
+[0.218425] (pub_test) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.227703] (pub_test) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.227873] (pub_test) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.228508] (pub_test) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.230985] (pub_test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300130] (-) TimerEvent: {}
+[0.313484] (pub_test) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.318387] (pub_test) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.318544] (pub_test) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.318921] (pub_test) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.320098] (pub_test) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400230] (-) TimerEvent: {}
+[0.447892] (pub_test) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.490431] (pub_test) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.500387] (-) TimerEvent: {}
+[0.502852] (pub_test) StdoutLine: {'line': b'-- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.503406] (pub_test) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.522491] (pub_test) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.525083] (pub_test) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.529844] (pub_test) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.536824] (pub_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.546094] (pub_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.582276] (pub_test) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.589012] (pub_test) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.594036] (pub_test) StdoutLine: {'line': b'-- Found yasmin: 3.2.0 (/opt/ros/humble/share/yasmin/cmake)\n'}
+[0.595274] (pub_test) StdoutLine: {'line': b'-- Found yasmin_ros: 3.2.0 (/opt/ros/humble/share/yasmin_ros/cmake)\n'}
+[0.600441] (-) TimerEvent: {}
+[0.618021] (pub_test) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.619383] (pub_test) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.687681] (pub_test) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.700569] (-) TimerEvent: {}
+[0.716562] (pub_test) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.746211] (pub_test) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.752393] (pub_test) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.800785] (-) TimerEvent: {}
+[0.831192] (pub_test) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.831470] (pub_test) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.900983] (-) TimerEvent: {}
+[0.914261] (pub_test) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.915974] (pub_test) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.001063] (-) TimerEvent: {}
+[1.101283] (-) TimerEvent: {}
+[1.151837] (pub_test) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.201464] (-) TimerEvent: {}
+[1.301794] (-) TimerEvent: {}
+[1.402030] (-) TimerEvent: {}
+[1.443970] (pub_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.502107] (-) TimerEvent: {}
+[1.544412] (pub_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.561013] (pub_test) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.562550] (pub_test) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.587725] (pub_test) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.587971] (pub_test) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.588085] (pub_test) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.588186] (pub_test) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.602197] (-) TimerEvent: {}
+[1.609979] (pub_test) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.648024] (pub_test) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.664582] (pub_test) StdoutLine: {'line': b'-- Generating done\n'}
+[1.671034] (pub_test) StdoutLine: {'line': b'-- Build files have been written to: /home/mii/ros2_ws/build/pub_test\n'}
+[1.679225] (pub_test) CommandEnded: {'returncode': 0}
+[1.679506] (pub_test) JobProgress: {'identifier': 'pub_test', 'progress': 'build'}
+[1.679525] (pub_test) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mii/ros2_ws/build/pub_test', '--', '-j16', '-l16'], 'cwd': '/home/mii/ros2_ws/build/pub_test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:en'), ('USER', 'mii'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mii'), ('OLDPWD', '/home/mii/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PS1', '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1838'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mii'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mii'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mii-Nitro-ANV15-51:@/tmp/.ICE-unix/1813,unix/mii-Nitro-ANV15-51:/tmp/.ICE-unix/1813'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b2a90f69_2358_4854_89b9_73103e2c06ab'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.18AX72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mii/ros2_ws/build/pub_test'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/mii/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.702318] (-) TimerEvent: {}
+[1.719547] (pub_test) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.737364] (pub_test) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.745072] (pub_test) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_symlink_pub_test_pkg\n'}
+[1.745430] (pub_test) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_symlink_pub_test\n'}
+[1.748653] (pub_test) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_symlink_pub_test_pkg_setup\n'}
+[1.802496] (-) TimerEvent: {}
+[1.892799] (pub_test) StdoutLine: {'line': b'running egg_info\n'}
+[1.893117] (pub_test) StdoutLine: {'line': b'running egg_info\n'}
+[1.893361] (pub_test) StdoutLine: {'line': b'creating pub_test.egg-info\n'}
+[1.893501] (pub_test) StdoutLine: {'line': b'writing pub_test.egg-info/PKG-INFO\n'}
+[1.893595] (pub_test) StdoutLine: {'line': b'writing dependency_links to pub_test.egg-info/dependency_links.txt\n'}
+[1.893745] (pub_test) StdoutLine: {'line': b'writing top-level names to pub_test.egg-info/top_level.txt\n'}
+[1.893836] (pub_test) StdoutLine: {'line': b'creating pub_test_pkg.egg-info\n'}
+[1.893955] (pub_test) StdoutLine: {'line': b"writing manifest file 'pub_test.egg-info/SOURCES.txt'\n"}
+[1.894039] (pub_test) StdoutLine: {'line': b'writing pub_test_pkg.egg-info/PKG-INFO\n'}
+[1.894118] (pub_test) StdoutLine: {'line': b'writing dependency_links to pub_test_pkg.egg-info/dependency_links.txt\n'}
+[1.894198] (pub_test) StdoutLine: {'line': b'writing top-level names to pub_test_pkg.egg-info/top_level.txt\n'}
+[1.894276] (pub_test) StdoutLine: {'line': b"writing manifest file 'pub_test_pkg.egg-info/SOURCES.txt'\n"}
+[1.894825] (pub_test) StdoutLine: {'line': b"reading manifest file 'pub_test.egg-info/SOURCES.txt'\n"}
+[1.895054] (pub_test) StdoutLine: {'line': b"reading manifest file 'pub_test_pkg.egg-info/SOURCES.txt'\n"}
+[1.895239] (pub_test) StdoutLine: {'line': b"writing manifest file 'pub_test.egg-info/SOURCES.txt'\n"}
+[1.895410] (pub_test) StdoutLine: {'line': b"writing manifest file 'pub_test_pkg.egg-info/SOURCES.txt'\n"}
+[1.902644] (-) TimerEvent: {}
+[1.906027] (pub_test) StdoutLine: {'line': b'[  6%] Built target pub_test__cpp\n'}
+[1.912694] (pub_test) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.912829] (pub_test) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/pub_test__rosidl_generator_c.dir/rosidl_generator_c/pub_test/msg/detail/display_message__functions.c.o\x1b[0m\n'}
+[1.912877] (pub_test) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.912912] (pub_test) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.914471] (pub_test) StdoutLine: {'line': b'[ 19%] Built target ament_cmake_python_build_pub_test_pkg_egg\n'}
+[1.920298] (pub_test) StdoutLine: {'line': b'[ 19%] Built target ament_cmake_python_build_pub_test_egg\n'}
+[1.952869] (pub_test) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libpub_test__rosidl_generator_c.so\x1b[0m\n'}
+[1.980769] (pub_test) StdoutLine: {'line': b'[ 22%] Built target pub_test__rosidl_generator_c\n'}
+[1.987024] (pub_test) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.990120] (pub_test) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.990199] (pub_test) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.002724] (-) TimerEvent: {}
+[2.061271] (pub_test) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/pub_test__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pub_test/msg/display_message__type_support.cpp.o\x1b[0m\n'}
+[2.075493] (pub_test) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/pub_test__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pub_test/msg/detail/dds_fastrtps/display_message__type_support.cpp.o\x1b[0m\n'}
+[2.077153] (pub_test) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/pub_test__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pub_test/msg/detail/display_message__type_support.cpp.o\x1b[0m\n'}
+[2.102816] (-) TimerEvent: {}
+[2.135013] (pub_test) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/pub_test__rosidl_typesupport_c.dir/rosidl_typesupport_c/pub_test/msg/display_message__type_support.cpp.o\x1b[0m\n'}
+[2.150450] (pub_test) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/pub_test__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pub_test/msg/detail/display_message__type_support.c.o\x1b[0m\n'}
+[2.156636] (pub_test) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libpub_test__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.157796] (pub_test) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/pub_test__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pub_test/msg/detail/display_message__type_support_c.cpp.o\x1b[0m\n'}
+[2.175413] (pub_test) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libpub_test__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.192551] (pub_test) StdoutLine: {'line': b'[ 58%] Built target pub_test__rosidl_typesupport_c\n'}
+[2.202033] (pub_test) StdoutLine: {'line': b'[ 58%] Built target pub_test__rosidl_typesupport_introspection_c\n'}
+[2.202932] (-) TimerEvent: {}
+[2.241657] (pub_test) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libpub_test__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.272745] (pub_test) StdoutLine: {'line': b'[ 61%] Built target pub_test__rosidl_typesupport_cpp\n'}
+[2.303020] (-) TimerEvent: {}
+[2.304831] (pub_test) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libpub_test__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.309155] (pub_test) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libpub_test__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.351316] (pub_test) StdoutLine: {'line': b'[ 67%] Built target pub_test__rosidl_typesupport_introspection_cpp\n'}
+[2.352715] (pub_test) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libpub_test__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.357560] (pub_test) StdoutLine: {'line': b'[ 70%] Built target pub_test__rosidl_typesupport_fastrtps_cpp\n'}
+[2.403122] (-) TimerEvent: {}
+[2.414511] (pub_test) StdoutLine: {'line': b'[ 70%] Built target pub_test__rosidl_typesupport_fastrtps_c\n'}
+[2.432773] (pub_test) StdoutLine: {'line': b'[ 70%] Built target pub_test\n'}
+[2.456355] (pub_test) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.503309] (-) TimerEvent: {}
+[2.603676] (-) TimerEvent: {}
+[2.664990] (pub_test) StdoutLine: {'line': b'[ 74%] Built target pub_test__py\n'}
+[2.682634] (pub_test) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/pub_test__rosidl_generator_py.dir/rosidl_generator_py/pub_test/msg/_display_message_s.c.o\x1b[0m\n'}
+[2.703876] (-) TimerEvent: {}
+[2.773699] (pub_test) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pub_test/libpub_test__rosidl_generator_py.so\x1b[0m\n'}
+[2.803955] (-) TimerEvent: {}
+[2.820965] (pub_test) StdoutLine: {'line': b'[ 80%] Built target pub_test__rosidl_generator_py\n'}
+[2.841429] (pub_test) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/pub_test__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pub_test/_pub_test_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.842152] (pub_test) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/pub_test__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pub_test/_pub_test_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.842853] (pub_test) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/pub_test__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pub_test/_pub_test_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.903204] (pub_test) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pub_test/pub_test_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.903371] (pub_test) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pub_test/pub_test_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.904044] (-) TimerEvent: {}
+[2.904545] (pub_test) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pub_test/pub_test_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.928870] (pub_test) StdoutLine: {'line': b'[100%] Built target pub_test__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.930320] (pub_test) StdoutLine: {'line': b'[100%] Built target pub_test__rosidl_typesupport_introspection_c__pyext\n'}
+[2.931978] (pub_test) StdoutLine: {'line': b'[100%] Built target pub_test__rosidl_typesupport_c__pyext\n'}
+[2.939579] (pub_test) CommandEnded: {'returncode': 0}
+[2.940156] (pub_test) JobProgress: {'identifier': 'pub_test', 'progress': 'install'}
+[2.947055] (pub_test) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mii/ros2_ws/build/pub_test'], 'cwd': '/home/mii/ros2_ws/build/pub_test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:en'), ('USER', 'mii'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mii'), ('OLDPWD', '/home/mii/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PS1', '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1838'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mii'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mii'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mii-Nitro-ANV15-51:@/tmp/.ICE-unix/1813,unix/mii-Nitro-ANV15-51:/tmp/.ICE-unix/1813'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b2a90f69_2358_4854_89b9_73103e2c06ab'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.18AX72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mii/ros2_ws/build/pub_test'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/mii/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.957365] (pub_test) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.958358] (pub_test) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.958863] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/ament_index/resource_index/rosidl_interfaces/pub_test\n'}
+[2.968108] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/detail/display_message__functions.h\n'}
+[2.979026] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/detail/display_message__struct.h\n'}
+[2.989064] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/detail/display_message__type_support.h\n'}
+[2.997730] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/display_message.h\n'}
+[3.004105] (-) TimerEvent: {}
+[3.007963] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.013876] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/environment/library_path.sh\n'}
+[3.023721] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/environment/library_path.dsv\n'}
+[3.032728] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/detail/display_message__rosidl_typesupport_fastrtps_c.h\n'}
+[3.044079] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.054421] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/detail/display_message__builder.hpp\n'}
+[3.062547] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/detail/display_message__struct.hpp\n'}
+[3.071712] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/detail/display_message__traits.hpp\n'}
+[3.080650] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/detail/display_message__type_support.hpp\n'}
+[3.090362] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/display_message.hpp\n'}
+[3.100129] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.104184] (-) TimerEvent: {}
+[3.109854] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/detail/display_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.119543] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.125026] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/detail/display_message__rosidl_typesupport_introspection_c.h\n'}
+[3.133143] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.139788] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/detail/display_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.146813] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/environment/pythonpath.sh\n'}
+[3.154442] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/environment/pythonpath.dsv\n'}
+[3.161069] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.168073] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.172980] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.179048] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.186745] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/__init__.py\n'}
+[3.192345] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/_pub_test_s.ep.rosidl_typesupport_c.c\n'}
+[3.198364] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/_pub_test_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.204262] (-) TimerEvent: {}
+[3.204638] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/_pub_test_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.212090] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/libpub_test__rosidl_generator_py.so\n'}
+[3.220172] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/msg/__init__.py\n'}
+[3.227942] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/msg/_display_message.py\n'}
+[3.233084] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/msg/_display_message_s.c\n'}
+[3.240720] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/pub_test_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.248958] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/pub_test_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.257081] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/pub_test_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.267646] (pub_test) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/pub_test_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.267769] (pub_test) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/pub_test_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.268118] (pub_test) StdoutLine: {'line': b'-- Up-to-date symlink: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/pub_test_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.268243] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/msg/DisplayMessage.idl\n'}
+[3.277993] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/msg/DisplayMessage.msg\n'}
+[3.285990] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test_pkg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.294431] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test_pkg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.302074] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test_pkg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.304361] (-) TimerEvent: {}
+[3.311279] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test_pkg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.318627] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test_pkg/__init__.py\n'}
+[3.327262] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test_pkg/publicador_midia.py\n'}
+[3.337390] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test_pkg/teste_publicador.py\n'}
+[3.349232] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/launch/media_publisher.launch.py\n'}
+[3.361634] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/ament_index/resource_index/package_run_dependencies/pub_test\n'}
+[3.371814] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/ament_index/resource_index/parent_prefix_path/pub_test\n'}
+[3.383018] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/environment/ament_prefix_path.sh\n'}
+[3.393467] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/environment/ament_prefix_path.dsv\n'}
+[3.401835] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/environment/path.sh\n'}
+[3.404498] (-) TimerEvent: {}
+[3.411423] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/environment/path.dsv\n'}
+[3.421548] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/local_setup.bash\n'}
+[3.429603] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/local_setup.sh\n'}
+[3.438261] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/local_setup.zsh\n'}
+[3.448389] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/local_setup.dsv\n'}
+[3.457913] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/package.dsv\n'}
+[3.467178] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/ament_index/resource_index/packages/pub_test\n'}
+[3.477150] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/rosidl_cmake-extras.cmake\n'}
+[3.486596] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.495475] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.504098] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.504560] (-) TimerEvent: {}
+[3.513407] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.522552] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.531832] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.540507] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/pub_testConfig.cmake\n'}
+[3.549023] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/pub_testConfig-version.cmake\n'}
+[3.557443] (pub_test) StdoutLine: {'line': b'-- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/package.xml\n'}
+[3.563911] (pub_test) StdoutLine: {'line': b'-- Installing: /home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_generator_c.so\n'}
+[3.564075] (pub_test) StdoutLine: {'line': b'-- Set runtime path of "/home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_generator_c.so" to ""\n'}
+[3.564164] (pub_test) StdoutLine: {'line': b'-- Installing: /home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_typesupport_fastrtps_c.so\n'}
+[3.564279] (pub_test) StdoutLine: {'line': b'-- Set runtime path of "/home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.564366] (pub_test) StdoutLine: {'line': b'-- Installing: /home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.564466] (pub_test) StdoutLine: {'line': b'-- Set runtime path of "/home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.564547] (pub_test) StdoutLine: {'line': b'-- Installing: /home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_typesupport_introspection_c.so\n'}
+[3.564645] (pub_test) StdoutLine: {'line': b'-- Set runtime path of "/home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.564725] (pub_test) StdoutLine: {'line': b'-- Installing: /home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_typesupport_c.so\n'}
+[3.564826] (pub_test) StdoutLine: {'line': b'-- Set runtime path of "/home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_typesupport_c.so" to ""\n'}
+[3.564931] (pub_test) StdoutLine: {'line': b'-- Installing: /home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_typesupport_introspection_cpp.so\n'}
+[3.565004] (pub_test) StdoutLine: {'line': b'-- Set runtime path of "/home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.565080] (pub_test) StdoutLine: {'line': b'-- Installing: /home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_typesupport_cpp.so\n'}
+[3.565175] (pub_test) StdoutLine: {'line': b'-- Set runtime path of "/home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_typesupport_cpp.so" to ""\n'}
+[3.589337] (pub_test) StdoutLine: {'line': b"Listing '/home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test'...\n"}
+[3.589461] (pub_test) StdoutLine: {'line': b"Compiling '/home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/__init__.py'...\n"}
+[3.589538] (pub_test) StdoutLine: {'line': b"Listing '/home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/msg'...\n"}
+[3.589608] (pub_test) StdoutLine: {'line': b"Compiling '/home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/msg/__init__.py'...\n"}
+[3.589675] (pub_test) StdoutLine: {'line': b"Compiling '/home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/msg/_display_message.py'...\n"}
+[3.592190] (pub_test) StdoutLine: {'line': b'-- Installing: /home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_generator_py.so\n'}
+[3.592312] (pub_test) StdoutLine: {'line': b'-- Set runtime path of "/home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_generator_py.so" to ""\n'}
+[3.604734] (-) TimerEvent: {}
+[3.614433] (pub_test) StdoutLine: {'line': b"Listing '/home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test_pkg'...\n"}
+[3.614591] (pub_test) StdoutLine: {'line': b"Compiling '/home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test_pkg/__init__.py'...\n"}
+[3.614679] (pub_test) StdoutLine: {'line': b"Compiling '/home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test_pkg/publicador_midia.py'...\n"}
+[3.614759] (pub_test) StdoutLine: {'line': b"Compiling '/home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test_pkg/teste_publicador.py'...\n"}
+[3.617228] (pub_test) StdoutLine: {'line': b'-- Installing: /home/mii/ros2_ws/install/pub_test/lib/pub_test/publicador_midia\n'}
+[3.617413] (pub_test) StdoutLine: {'line': b'-- Installing: /home/mii/ros2_ws/install/pub_test/lib/pub_test/teste_publicador\n'}
+[3.617503] (pub_test) StdoutLine: {'line': b'-- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/export_pub_test__rosidl_generator_cExport.cmake\n'}
+[3.617584] (pub_test) StdoutLine: {'line': b'-- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/export_pub_test__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.617663] (pub_test) StdoutLine: {'line': b'-- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/export_pub_test__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.617740] (pub_test) StdoutLine: {'line': b'-- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/export_pub_test__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.617863] (pub_test) StdoutLine: {'line': b'-- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/export_pub_test__rosidl_generator_cppExport.cmake\n'}
+[3.617971] (pub_test) StdoutLine: {'line': b'-- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/export_pub_test__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.618175] (pub_test) StdoutLine: {'line': b'-- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/export_pub_test__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.618214] (pub_test) StdoutLine: {'line': b'-- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/pub_test__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.618249] (pub_test) StdoutLine: {'line': b'-- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/pub_test__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.618278] (pub_test) StdoutLine: {'line': b'-- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/pub_test__rosidl_typesupport_cExport.cmake\n'}
+[3.618305] (pub_test) StdoutLine: {'line': b'-- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/pub_test__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.618331] (pub_test) StdoutLine: {'line': b'-- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/pub_test__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.618357] (pub_test) StdoutLine: {'line': b'-- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/pub_test__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.618383] (pub_test) StdoutLine: {'line': b'-- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/pub_test__rosidl_typesupport_cppExport.cmake\n'}
+[3.618409] (pub_test) StdoutLine: {'line': b'-- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/pub_test__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.618435] (pub_test) StdoutLine: {'line': b'-- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/export_pub_test__rosidl_generator_pyExport.cmake\n'}
+[3.618459] (pub_test) StdoutLine: {'line': b'-- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/export_pub_test__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.619798] (pub_test) CommandEnded: {'returncode': 0}
+[3.632750] (pub_test) JobEnded: {'identifier': 'pub_test', 'rc': 0}
+[3.633078] (-) EventReactorShutdown: {}

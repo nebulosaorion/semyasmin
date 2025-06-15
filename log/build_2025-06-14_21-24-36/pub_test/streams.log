@@ -1,0 +1,240 @@
+[0.008s] Invoking command in '/home/mii/ros2_ws/build/pub_test': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/mii/ros2_ws/src/pub_test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mii/ros2_ws/install/pub_test
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.129s] -- The CXX compiler identification is GNU 11.4.0
+[0.135s] -- Detecting C compiler ABI info
+[0.218s] -- Detecting C compiler ABI info - done
+[0.227s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.228s] -- Detecting C compile features
+[0.228s] -- Detecting C compile features - done
+[0.231s] -- Detecting CXX compiler ABI info
+[0.313s] -- Detecting CXX compiler ABI info - done
+[0.318s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.318s] -- Detecting CXX compile features
+[0.319s] -- Detecting CXX compile features - done
+[0.320s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.448s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.490s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.503s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.503s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.522s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.525s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.530s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.537s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.546s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.582s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.589s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.594s] -- Found yasmin: 3.2.0 (/opt/ros/humble/share/yasmin/cmake)
+[0.595s] -- Found yasmin_ros: 3.2.0 (/opt/ros/humble/share/yasmin_ros/cmake)
+[0.618s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.619s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.687s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.716s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.746s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.752s] -- Looking for pthread.h
+[0.831s] -- Looking for pthread.h - found
+[0.831s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.914s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.916s] -- Found Threads: TRUE  
+[1.152s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.444s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.544s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.561s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.562s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.588s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.588s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.588s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.588s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.610s] -- Found PythonExtra: .so  
+[1.648s] -- Configuring done
+[1.664s] -- Generating done
+[1.671s] -- Build files have been written to: /home/mii/ros2_ws/build/pub_test
+[1.679s] Invoked command in '/home/mii/ros2_ws/build/pub_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/mii/ros2_ws/src/pub_test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mii/ros2_ws/install/pub_test
+[1.679s] Invoking command in '/home/mii/ros2_ws/build/pub_test': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/mii/ros2_ws/build/pub_test -- -j16 -l16
+[1.719s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.737s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.745s] [  6%] Built target ament_cmake_python_symlink_pub_test_pkg
+[1.745s] [  6%] Built target ament_cmake_python_symlink_pub_test
+[1.748s] [  6%] Built target ament_cmake_python_symlink_pub_test_pkg_setup
+[1.893s] running egg_info
+[1.893s] running egg_info
+[1.893s] creating pub_test.egg-info
+[1.893s] writing pub_test.egg-info/PKG-INFO
+[1.893s] writing dependency_links to pub_test.egg-info/dependency_links.txt
+[1.893s] writing top-level names to pub_test.egg-info/top_level.txt
+[1.894s] creating pub_test_pkg.egg-info
+[1.894s] writing manifest file 'pub_test.egg-info/SOURCES.txt'
+[1.894s] writing pub_test_pkg.egg-info/PKG-INFO
+[1.894s] writing dependency_links to pub_test_pkg.egg-info/dependency_links.txt
+[1.894s] writing top-level names to pub_test_pkg.egg-info/top_level.txt
+[1.894s] writing manifest file 'pub_test_pkg.egg-info/SOURCES.txt'
+[1.894s] reading manifest file 'pub_test.egg-info/SOURCES.txt'
+[1.895s] reading manifest file 'pub_test_pkg.egg-info/SOURCES.txt'
+[1.895s] writing manifest file 'pub_test.egg-info/SOURCES.txt'
+[1.895s] writing manifest file 'pub_test_pkg.egg-info/SOURCES.txt'
+[1.906s] [  6%] Built target pub_test__cpp
+[1.912s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.912s] [ 19%] [32mBuilding C object CMakeFiles/pub_test__rosidl_generator_c.dir/rosidl_generator_c/pub_test/msg/detail/display_message__functions.c.o[0m
+[1.913s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.913s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.914s] [ 19%] Built target ament_cmake_python_build_pub_test_pkg_egg
+[1.920s] [ 19%] Built target ament_cmake_python_build_pub_test_egg
+[1.953s] [ 22%] [32m[1mLinking C shared library libpub_test__rosidl_generator_c.so[0m
+[1.981s] [ 22%] Built target pub_test__rosidl_generator_c
+[1.987s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.990s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.990s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.061s] [ 35%] [32mBuilding CXX object CMakeFiles/pub_test__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pub_test/msg/display_message__type_support.cpp.o[0m
+[2.075s] [ 38%] [32mBuilding CXX object CMakeFiles/pub_test__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pub_test/msg/detail/dds_fastrtps/display_message__type_support.cpp.o[0m
+[2.077s] [ 41%] [32mBuilding CXX object CMakeFiles/pub_test__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pub_test/msg/detail/display_message__type_support.cpp.o[0m
+[2.135s] [ 45%] [32mBuilding CXX object CMakeFiles/pub_test__rosidl_typesupport_c.dir/rosidl_typesupport_c/pub_test/msg/display_message__type_support.cpp.o[0m
+[2.150s] [ 48%] [32mBuilding C object CMakeFiles/pub_test__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pub_test/msg/detail/display_message__type_support.c.o[0m
+[2.156s] [ 51%] [32m[1mLinking CXX shared library libpub_test__rosidl_typesupport_c.so[0m
+[2.157s] [ 54%] [32mBuilding CXX object CMakeFiles/pub_test__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pub_test/msg/detail/display_message__type_support_c.cpp.o[0m
+[2.175s] [ 58%] [32m[1mLinking C shared library libpub_test__rosidl_typesupport_introspection_c.so[0m
+[2.192s] [ 58%] Built target pub_test__rosidl_typesupport_c
+[2.202s] [ 58%] Built target pub_test__rosidl_typesupport_introspection_c
+[2.241s] [ 61%] [32m[1mLinking CXX shared library libpub_test__rosidl_typesupport_cpp.so[0m
+[2.272s] [ 61%] Built target pub_test__rosidl_typesupport_cpp
+[2.305s] [ 64%] [32m[1mLinking CXX shared library libpub_test__rosidl_typesupport_introspection_cpp.so[0m
+[2.309s] [ 67%] [32m[1mLinking CXX shared library libpub_test__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.351s] [ 67%] Built target pub_test__rosidl_typesupport_introspection_cpp
+[2.352s] [ 70%] [32m[1mLinking CXX shared library libpub_test__rosidl_typesupport_fastrtps_c.so[0m
+[2.357s] [ 70%] Built target pub_test__rosidl_typesupport_fastrtps_cpp
+[2.414s] [ 70%] Built target pub_test__rosidl_typesupport_fastrtps_c
+[2.433s] [ 70%] Built target pub_test
+[2.456s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.665s] [ 74%] Built target pub_test__py
+[2.682s] [ 77%] [32mBuilding C object CMakeFiles/pub_test__rosidl_generator_py.dir/rosidl_generator_py/pub_test/msg/_display_message_s.c.o[0m
+[2.773s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/pub_test/libpub_test__rosidl_generator_py.so[0m
+[2.821s] [ 80%] Built target pub_test__rosidl_generator_py
+[2.841s] [ 83%] [32mBuilding C object CMakeFiles/pub_test__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pub_test/_pub_test_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.842s] [ 87%] [32mBuilding C object CMakeFiles/pub_test__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pub_test/_pub_test_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.842s] [ 90%] [32mBuilding C object CMakeFiles/pub_test__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pub_test/_pub_test_s.ep.rosidl_typesupport_c.c.o[0m
+[2.903s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/pub_test/pub_test_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.903s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/pub_test/pub_test_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.904s] [100%] [32m[1mLinking C shared library rosidl_generator_py/pub_test/pub_test_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.929s] [100%] Built target pub_test__rosidl_typesupport_fastrtps_c__pyext
+[2.930s] [100%] Built target pub_test__rosidl_typesupport_introspection_c__pyext
+[2.932s] [100%] Built target pub_test__rosidl_typesupport_c__pyext
+[2.939s] Invoked command in '/home/mii/ros2_ws/build/pub_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/mii/ros2_ws/build/pub_test -- -j16 -l16
+[2.947s] Invoking command in '/home/mii/ros2_ws/build/pub_test': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/mii/ros2_ws/build/pub_test
+[2.957s] -- Install configuration: ""
+[2.958s] -- Execute custom install script
+[2.959s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/ament_index/resource_index/rosidl_interfaces/pub_test
+[2.968s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/detail/display_message__functions.h
+[2.979s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/detail/display_message__struct.h
+[2.989s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/detail/display_message__type_support.h
+[2.997s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/display_message.h
+[3.008s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/rosidl_generator_c__visibility_control.h
+[3.014s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/environment/library_path.sh
+[3.023s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/environment/library_path.dsv
+[3.032s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/detail/display_message__rosidl_typesupport_fastrtps_c.h
+[3.044s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.054s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/detail/display_message__builder.hpp
+[3.062s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/detail/display_message__struct.hpp
+[3.071s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/detail/display_message__traits.hpp
+[3.080s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/detail/display_message__type_support.hpp
+[3.090s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/display_message.hpp
+[3.100s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.110s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/detail/display_message__rosidl_typesupport_fastrtps_cpp.hpp
+[3.119s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.125s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/detail/display_message__rosidl_typesupport_introspection_c.h
+[3.133s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.139s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/include/pub_test/pub_test/msg/detail/display_message__rosidl_typesupport_introspection_cpp.hpp
+[3.146s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/environment/pythonpath.sh
+[3.154s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/environment/pythonpath.dsv
+[3.161s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test-0.0.0-py3.10.egg-info/PKG-INFO
+[3.168s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.173s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.179s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test-0.0.0-py3.10.egg-info/top_level.txt
+[3.186s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/__init__.py
+[3.192s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/_pub_test_s.ep.rosidl_typesupport_c.c
+[3.198s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/_pub_test_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.204s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/_pub_test_s.ep.rosidl_typesupport_introspection_c.c
+[3.212s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/libpub_test__rosidl_generator_py.so
+[3.220s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/msg/__init__.py
+[3.228s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/msg/_display_message.py
+[3.233s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/msg/_display_message_s.c
+[3.240s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/pub_test_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.249s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/pub_test_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.257s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/pub_test_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.267s] -- Up-to-date symlink: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/pub_test_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.267s] -- Up-to-date symlink: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/pub_test_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.268s] -- Up-to-date symlink: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/pub_test_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.268s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/msg/DisplayMessage.idl
+[3.278s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/msg/DisplayMessage.msg
+[3.286s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+[3.294s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.302s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.311s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test_pkg-0.0.0-py3.10.egg-info/top_level.txt
+[3.318s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test_pkg/__init__.py
+[3.327s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test_pkg/publicador_midia.py
+[3.337s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test_pkg/teste_publicador.py
+[3.349s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/launch/media_publisher.launch.py
+[3.361s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/ament_index/resource_index/package_run_dependencies/pub_test
+[3.371s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/ament_index/resource_index/parent_prefix_path/pub_test
+[3.383s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/environment/ament_prefix_path.sh
+[3.393s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/environment/ament_prefix_path.dsv
+[3.402s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/environment/path.sh
+[3.411s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/environment/path.dsv
+[3.421s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/local_setup.bash
+[3.429s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/local_setup.sh
+[3.438s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/local_setup.zsh
+[3.448s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/local_setup.dsv
+[3.458s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/package.dsv
+[3.467s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/ament_index/resource_index/packages/pub_test
+[3.477s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/rosidl_cmake-extras.cmake
+[3.486s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.495s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.504s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/ament_cmake_export_libraries-extras.cmake
+[3.513s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/ament_cmake_export_targets-extras.cmake
+[3.522s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.532s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.540s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/pub_testConfig.cmake
+[3.549s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/pub_testConfig-version.cmake
+[3.557s] -- Symlinking: /home/mii/ros2_ws/install/pub_test/share/pub_test/package.xml
+[3.564s] -- Installing: /home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_generator_c.so
+[3.564s] -- Set runtime path of "/home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_generator_c.so" to ""
+[3.564s] -- Installing: /home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_typesupport_fastrtps_c.so
+[3.564s] -- Set runtime path of "/home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_typesupport_fastrtps_c.so" to ""
+[3.564s] -- Installing: /home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_typesupport_fastrtps_cpp.so
+[3.564s] -- Set runtime path of "/home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.564s] -- Installing: /home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_typesupport_introspection_c.so
+[3.564s] -- Set runtime path of "/home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_typesupport_introspection_c.so" to ""
+[3.564s] -- Installing: /home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_typesupport_c.so
+[3.565s] -- Set runtime path of "/home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_typesupport_c.so" to ""
+[3.565s] -- Installing: /home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_typesupport_introspection_cpp.so
+[3.565s] -- Set runtime path of "/home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_typesupport_introspection_cpp.so" to ""
+[3.565s] -- Installing: /home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_typesupport_cpp.so
+[3.565s] -- Set runtime path of "/home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_typesupport_cpp.so" to ""
+[3.589s] Listing '/home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test'...
+[3.589s] Compiling '/home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/__init__.py'...
+[3.589s] Listing '/home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/msg'...
+[3.589s] Compiling '/home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/msg/__init__.py'...
+[3.589s] Compiling '/home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test/msg/_display_message.py'...
+[3.592s] -- Installing: /home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_generator_py.so
+[3.592s] -- Set runtime path of "/home/mii/ros2_ws/install/pub_test/lib/libpub_test__rosidl_generator_py.so" to ""
+[3.614s] Listing '/home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test_pkg'...
+[3.614s] Compiling '/home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test_pkg/__init__.py'...
+[3.614s] Compiling '/home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test_pkg/publicador_midia.py'...
+[3.614s] Compiling '/home/mii/ros2_ws/install/pub_test/local/lib/python3.10/dist-packages/pub_test_pkg/teste_publicador.py'...
+[3.617s] -- Installing: /home/mii/ros2_ws/install/pub_test/lib/pub_test/publicador_midia
+[3.617s] -- Installing: /home/mii/ros2_ws/install/pub_test/lib/pub_test/teste_publicador
+[3.617s] -- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/export_pub_test__rosidl_generator_cExport.cmake
+[3.617s] -- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/export_pub_test__rosidl_generator_cExport-noconfig.cmake
+[3.617s] -- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/export_pub_test__rosidl_typesupport_fastrtps_cExport.cmake
+[3.617s] -- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/export_pub_test__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.618s] -- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/export_pub_test__rosidl_generator_cppExport.cmake
+[3.618s] -- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/export_pub_test__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.618s] -- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/export_pub_test__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.618s] -- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/pub_test__rosidl_typesupport_introspection_cExport.cmake
+[3.618s] -- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/pub_test__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.618s] -- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/pub_test__rosidl_typesupport_cExport.cmake
+[3.618s] -- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/pub_test__rosidl_typesupport_cExport-noconfig.cmake
+[3.618s] -- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/pub_test__rosidl_typesupport_introspection_cppExport.cmake
+[3.618s] -- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/pub_test__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.618s] -- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/pub_test__rosidl_typesupport_cppExport.cmake
+[3.618s] -- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/pub_test__rosidl_typesupport_cppExport-noconfig.cmake
+[3.618s] -- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/export_pub_test__rosidl_generator_pyExport.cmake
+[3.618s] -- Installing: /home/mii/ros2_ws/install/pub_test/share/pub_test/cmake/export_pub_test__rosidl_generator_pyExport-noconfig.cmake
+[3.620s] Invoked command in '/home/mii/ros2_ws/build/pub_test' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/mii/ros2_ws/build/pub_test
