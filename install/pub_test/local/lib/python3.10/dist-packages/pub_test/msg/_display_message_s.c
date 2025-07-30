@@ -1,1 +1,0 @@
-/home/mii/ros2_ws/build/pub_test/rosidl_generator_py/pub_test/msg/_display_message_s.c

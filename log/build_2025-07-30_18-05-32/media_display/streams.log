@@ -1,0 +1,43 @@
+[0.472s] Invoking command in '/home/mii/ros2_ws/src/media_display': PYTHONPATH=/home/mii/ros2_ws/build/media_display/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mii/ros2_ws/install/media_display/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/media_display build --build-base /home/mii/ros2_ws/build/media_display/build install --record /home/mii/ros2_ws/build/media_display/install.log --single-version-externally-managed install_data
+[0.633s] running egg_info
+[0.634s] creating ../../build/media_display/media_display.egg-info
+[0.634s] writing ../../build/media_display/media_display.egg-info/PKG-INFO
+[0.634s] writing dependency_links to ../../build/media_display/media_display.egg-info/dependency_links.txt
+[0.634s] writing entry points to ../../build/media_display/media_display.egg-info/entry_points.txt
+[0.634s] writing requirements to ../../build/media_display/media_display.egg-info/requires.txt
+[0.634s] writing top-level names to ../../build/media_display/media_display.egg-info/top_level.txt
+[0.634s] writing manifest file '../../build/media_display/media_display.egg-info/SOURCES.txt'
+[0.635s] reading manifest file '../../build/media_display/media_display.egg-info/SOURCES.txt'
+[0.635s] writing manifest file '../../build/media_display/media_display.egg-info/SOURCES.txt'
+[0.635s] running build
+[0.636s] running build_py
+[0.636s] creating /home/mii/ros2_ws/build/media_display/build
+[0.636s] creating /home/mii/ros2_ws/build/media_display/build/lib
+[0.636s] creating /home/mii/ros2_ws/build/media_display/build/lib/media_display
+[0.636s] copying media_display/test_image_publisher.py -> /home/mii/ros2_ws/build/media_display/build/lib/media_display
+[0.636s] copying media_display/display_node.py -> /home/mii/ros2_ws/build/media_display/build/lib/media_display
+[0.636s] copying media_display/__init__.py -> /home/mii/ros2_ws/build/media_display/build/lib/media_display
+[0.636s] running install
+[0.636s] running install_lib
+[0.636s] creating /home/mii/ros2_ws/install/media_display/lib/python3.10/site-packages/media_display
+[0.636s] copying /home/mii/ros2_ws/build/media_display/build/lib/media_display/test_image_publisher.py -> /home/mii/ros2_ws/install/media_display/lib/python3.10/site-packages/media_display
+[0.637s] copying /home/mii/ros2_ws/build/media_display/build/lib/media_display/display_node.py -> /home/mii/ros2_ws/install/media_display/lib/python3.10/site-packages/media_display
+[0.637s] copying /home/mii/ros2_ws/build/media_display/build/lib/media_display/__init__.py -> /home/mii/ros2_ws/install/media_display/lib/python3.10/site-packages/media_display
+[0.637s] byte-compiling /home/mii/ros2_ws/install/media_display/lib/python3.10/site-packages/media_display/test_image_publisher.py to test_image_publisher.cpython-310.pyc
+[0.637s] byte-compiling /home/mii/ros2_ws/install/media_display/lib/python3.10/site-packages/media_display/display_node.py to display_node.cpython-310.pyc
+[0.638s] byte-compiling /home/mii/ros2_ws/install/media_display/lib/python3.10/site-packages/media_display/__init__.py to __init__.cpython-310.pyc
+[0.638s] running install_data
+[0.638s] creating /home/mii/ros2_ws/install/media_display/share/ament_index
+[0.638s] creating /home/mii/ros2_ws/install/media_display/share/ament_index/resource_index
+[0.638s] creating /home/mii/ros2_ws/install/media_display/share/ament_index/resource_index/packages
+[0.638s] copying resource/media_display -> /home/mii/ros2_ws/install/media_display/share/ament_index/resource_index/packages
+[0.638s] copying package.xml -> /home/mii/ros2_ws/install/media_display/share/media_display
+[0.638s] creating /home/mii/ros2_ws/install/media_display/share/media_display/launch
+[0.638s] copying launch/display.launch.py -> /home/mii/ros2_ws/install/media_display/share/media_display/launch
+[0.638s] running install_egg_info
+[0.639s] Copying ../../build/media_display/media_display.egg-info to /home/mii/ros2_ws/install/media_display/lib/python3.10/site-packages/media_display-0.0.0-py3.10.egg-info
+[0.640s] running install_scripts
+[0.653s] Installing display_node script to /home/mii/ros2_ws/install/media_display/bin
+[0.653s] Installing test_publisher script to /home/mii/ros2_ws/install/media_display/bin
+[0.653s] writing list of installed files to '/home/mii/ros2_ws/build/media_display/install.log'
+[0.667s] Invoked command in '/home/mii/ros2_ws/src/media_display' returned '0': PYTHONPATH=/home/mii/ros2_ws/build/media_display/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mii/ros2_ws/install/media_display/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/media_display build --build-base /home/mii/ros2_ws/build/media_display/build install --record /home/mii/ros2_ws/build/media_display/install.log --single-version-externally-managed install_data

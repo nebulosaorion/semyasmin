@@ -1,1 +1,0 @@
-rosidl_default_runtime;builtin_interfaces;cv_bridge;sensor_msgs;rclpy;python3-opencv;python3-numpy;yasmin;yasmin_ros

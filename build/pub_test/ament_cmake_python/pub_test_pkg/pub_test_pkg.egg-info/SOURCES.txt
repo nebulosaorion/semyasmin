@@ -1,9 +1,0 @@
-setup.cfg
-setup.py
-pub_test_pkg/__init__.py
-pub_test_pkg/publicador_midia.py
-pub_test_pkg/teste_publicador.py
-pub_test_pkg.egg-info/PKG-INFO
-pub_test_pkg.egg-info/SOURCES.txt
-pub_test_pkg.egg-info/dependency_links.txt
-pub_test_pkg.egg-info/top_level.txt

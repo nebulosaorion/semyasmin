@@ -1,1 +1,0 @@
-/home/mii/ros2_ws/build/pub_test/rosidl_generator_cpp/pub_test/msg/detail/display_message__traits.hpp

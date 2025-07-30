@@ -1,1 +1,0 @@
-/home/mii/ros2_ws/src/pub_test/launch/media_publisher.launch.py

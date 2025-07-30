@@ -1,1 +1,0 @@
-/home/mii/ros2_ws/build/pub_test/rosidl_generator_py/pub_test/_pub_test_s.ep.rosidl_typesupport_fastrtps_c.c
