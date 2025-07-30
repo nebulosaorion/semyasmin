@@ -4,7 +4,7 @@
   <name>media_display</name>
   <version>0.0.0</version>
   <description>Um pacote para exibir diferentes tipos de mídia via ROS2.</description>
-  <maintainer email="seu_email@exemplo.com">seu_nome</maintainer>
+  <maintainer email="evangelista@furg.br">evangelista</maintainer>
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_python</buildtool_depend>
