@@ -66,19 +66,35 @@ class MediaDisplayNode(Node):
             self.handle_topic(media_value)
 
     def handle_sentence(self, text):
-        image = np.full((self.screen_height, self.screen_width, 3), (20, 20, 20), dtype=np.uint8)
+        # Cria fundo branco
+        image = np.ones((self.screen_height, self.screen_width, 3), dtype=np.uint8) * 255
+        font = cv2.FONT_HERSHEY_SIMPLEX
+        font_scale = 1
+        thickness = 2
+        color = (0, 0, 0)
         y0, dy = 50, 40
+    
         for i, line in enumerate(text.split('\\n')):
-            cv2.putText(image, line, (50, y0 + i * dy), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2)
+            textsize = cv2.getTextSize(line, font, font_scale, thickness)[0]
+            x = (self.screen_width - textsize[0]) // 2
+            y = y0 + i * dy
+            cv2.putText(image, line, (x, y), font, font_scale, color, thickness)
+    
         self.ui_publisher.publish(self.bridge.cv2_to_imgmsg(image, "bgr8"))
+    
 
     def handle_image(self, path):
         try:
             image = cv2.imread(path)
+            if image is None:
+                self.get_logger().error(f'Imagem não encontrada ou inválida: {path}')
+                return
             resized_image = cv2.resize(image, (self.screen_width, self.screen_height))
             self.ui_publisher.publish(self.bridge.cv2_to_imgmsg(resized_image, "bgr8"))
+            self.get_logger().info('Imagem publicada com sucesso.')
         except Exception as e:
             self.get_logger().error(f'Falha ao processar imagem: {e}')
+
 
     def handle_video(self, path):
         cap = cv2.VideoCapture(path)
@@ -87,7 +103,10 @@ class MediaDisplayNode(Node):
             if not ret:
                 cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
                 continue
+
             resized_frame = cv2.resize(frame, (self.screen_width, self.screen_height))
+            if self.stop_media_flag.is_set():
+                break  # <- cheque novamente antes de publicar
             self.ui_publisher.publish(self.bridge.cv2_to_imgmsg(resized_frame, "bgr8"))
             time.sleep(1/30)
         cap.release()
