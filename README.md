@@ -2,19 +2,19 @@ Pacote ROS 2 para exibição de conteúdos multimídia (texto, imagens, vídeos 
 
 Comandos de exemplo
 
-    Exibir frase:
+Exibir frase:
 
-ros2 topic pub /display_command std_msgs/String "data: 'sentence:Ola mundo\n Teste 1'"
+    ros2 topic pub /display_command std_msgs/String "data: 'sentence:Ola mundo\n Teste 1'"
 
-    Exibir imagem:
+Exibir imagem:
 
-ros2 topic pub /display_command std_msgs/String "data: 'image:/caminho/para/imagem.jpg'"
+    ros2 topic pub /display_command std_msgs/String "data: 'image:/caminho/para/imagem.jpg'"
 
-    Exibir vídeo:
+Exibir vídeo:
 
-ros2 topic pub /display_command std_msgs/String "data: 'video:/caminho/para/video.mp4'"
+    ros2 topic pub /display_command std_msgs/String "data: 'video:/caminho/para/video.mp4'"
 
-    Espelhar outro tópico de imagem:
+Espelhar outro tópico de imagem:
 
-ros2 topic pub /display_command std_msgs/String "data: 'topic:/camera/image_raw'"
+    ros2 topic pub /display_command std_msgs/String "data: 'topic:/camera/image_raw'"
 
