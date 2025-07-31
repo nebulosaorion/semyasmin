@@ -106,7 +106,7 @@ class MediaDisplayNode(Node):
 
             resized_frame = cv2.resize(frame, (self.screen_width, self.screen_height))
             if self.stop_media_flag.is_set():
-                break  # <- cheque novamente antes de publicar
+                break 
             self.ui_publisher.publish(self.bridge.cv2_to_imgmsg(resized_frame, "bgr8"))
             time.sleep(1/30)
         cap.release()

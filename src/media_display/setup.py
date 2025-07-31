@@ -25,7 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'display_node = media_display.display_node:main',
-            'test_publisher = media_display.test_image_publisher:main',
+            
         ],
     },
 )
